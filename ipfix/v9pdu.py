@@ -31,7 +31,7 @@ from .message import accept_all_templates
 from .compat import ifilter
 
 import operator
-import struct
+import ipfix.compat_struct as struct
 from warnings import warn
 
 NETFLOW9_VERSION = 9

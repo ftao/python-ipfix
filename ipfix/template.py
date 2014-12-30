@@ -31,7 +31,7 @@ See :mod:`ipfix.message` for examples.
 from . import ie, types, compat
 from .compat import izip, xrange, lru_cache
 
-import struct
+import ipfix.compat_struct as struct
 
 
 # Builtin exceptions

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-import socketserver
+try:
+    import socketserver
+except:
+    import SocketServer as socketserver
 import ipfix.reader
 import ipfix.ie
 

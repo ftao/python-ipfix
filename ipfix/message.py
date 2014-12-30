@@ -191,7 +191,7 @@ from .compat import timezone, ifilter, reduce
 
 import io
 import operator
-import struct
+import ipfix.compat_struct as struct
 from datetime import datetime
 from warnings import warn
 

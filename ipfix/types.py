@@ -155,7 +155,7 @@ from datetime import datetime, timedelta
 from functools import total_ordering
 from ipaddress import ip_address
 import binascii
-import struct
+import ipfix.compat_struct as struct
 import math
 
 VARLEN = 65535
